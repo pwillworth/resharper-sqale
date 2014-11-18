@@ -25,44 +25,46 @@ Here's a sample entry. Four spots need data:
 It's easiest to explain them in reverse order
 
 #2 - The remediation time for one issue from this rule
-a: numeric time value, E.G. 5
-b: textual time unit. One of: min, h, d
+<strong>a:</strong> numeric time value, E.G. 5<br/>
+<strong>b:</strong> textual time unit. One of: min, h, d
 
-What we're looking for is the effort for an average coder to fix the issue on an average day. 
-Rule of thumb: 
-    trivial effort              = 2 min
-    minimal effort              = 5 min
-    a little thought required   = 15 min
-    thought required            = 30 min
-    serious thought required    = 1 h
-    major restructuring         = 1 d
+What we're looking for is the effort for an average coder to fix the issue on an average day. <br/>
+Rule of thumb:<br/>
+<table>
+<tr><td>trivial effort</td><td>2 min</td></tr>
+<tr><td>minimal effort</td><td>5 min</td></tr>
+<tr><td>a little thought required</td><td>15 min</td></tr>
+<tr><td>thought required</td><td>30 min</td></tr>
+<tr><td>serious thought required</td><td>1 h</td></tr>
+<tr><td>major restructuring</td><td>1 d</td></tr>
+</table>
   
 
-#1 - How to categorize the technical debt. 
+#1 - How to categorize the technical debt.
 Ask yourself "What's the worst thing that could happen?" and categorize based on the answer. For example, a rule that could be categorized under Maintainability-Understandability or Security-API abuse, should be categorized under Security.
 
 The 1b values are dependant upon the 1a values. For each possible a value, the b values follow:
 
-a: Portability
-b: Compiler related portability, Hardware related portability, Language related portability, 
+<strong>a:</strong> Portability<br/>
+<strong>b:</strong> Compiler related portability, Hardware related portability, Language related portability, 
    OS related portability, Software related portability, Time zone related portability
 
-a: Maintainability
-b: Readability, Understandability
+<strong>a:</strong> Maintainability<br/>
+<strong>b:</strong> Readability, Understandability
 
-a: Security
-b: API abuse, Errors, Security features, Input validation and representation
+<strong>a:</strong> Security<br/>
+<strong>b:</strong> API abuse, Errors, Security features, Input validation and representation
 
-a: Efficiency
-b: Memory use, Processor use
+<strong>a:</strong> Efficiency<br/>
+<strong>b:</strong> Memory use, Processor use
 
-a:Changeability
-b: Architecture related changeability, Data related changeability, Logic related changeability
+<strong>a:</strong>Changeability<br/>
+<strong>b:</strong> Architecture related changeability, Data related changeability, Logic related changeability
 
-a: Reliability
-b: Architecture related reliability, Data related reliability, Instruction related reliability, 
+<strong>a:</strong> Reliability<br/>
+<strong>b:</strong> Architecture related reliability, Data related reliability, Instruction related reliability, 
    Logic related reliability, Synchronization related reliability, Exception handling, Fault tolerance
    Unit tests
 
-a: Testability
-b: Unit level testability, Integration  level testability
+<strong>a:</strong> Testability<br/>
+<strong>b:</strong> Unit level testability, Integration  level testability
