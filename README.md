@@ -43,28 +43,28 @@ Rule of thumb:<br/>
 #1 - How to categorize the technical debt.
 Ask yourself "What's the worst thing that could happen?" and categorize based on the answer. For example, a rule that could be categorized under Maintainability-Understandability or Security-API abuse, should be categorized under Security.
 
-The 1b values are dependant upon the 1a values. For each possible a value, the b values follow:
+The 1b values are dependant upon the 1a values, so choose an a first, then choose one of its b's. For each possible a value, the b values follow:
 
-<strong>a:</strong> Portability<br/>
+<strong>a: Portability</strong><br/>
 <strong>b:</strong> Compiler related portability, Hardware related portability, Language related portability, 
    OS related portability, Software related portability, Time zone related portability
 
-<strong>a:</strong> Maintainability<br/>
+<strong>a: Maintainability</strong> <br/>
 <strong>b:</strong> Readability, Understandability
 
-<strong>a:</strong> Security<br/>
+<strong>a: Security</strong> <br/>
 <strong>b:</strong> API abuse, Errors, Security features, Input validation and representation
 
-<strong>a:</strong> Efficiency<br/>
+<strong>a: Efficiency</strong> <br/>
 <strong>b:</strong> Memory use, Processor use
 
-<strong>a:</strong>Changeability<br/>
+<strong>a: Changeability</strong><br/>
 <strong>b:</strong> Architecture related changeability, Data related changeability, Logic related changeability
 
-<strong>a:</strong> Reliability<br/>
+<strong>a: Reliability</strong><br/>
 <strong>b:</strong> Architecture related reliability, Data related reliability, Instruction related reliability, 
    Logic related reliability, Synchronization related reliability, Exception handling, Fault tolerance
    Unit tests
 
-<strong>a:</strong> Testability<br/>
+<strong>a: Testability</strong><br/>
 <strong>b:</strong> Unit level testability, Integration  level testability
