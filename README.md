@@ -30,12 +30,12 @@ b: textual time unit. One of: min, h, d
 
 What we're looking for is the effort for an average coder to fix the issue on an average day. 
 Rule of thumb: 
-	trivial effort              = 2 min
-	minimal effort              = 5 min
-	a little thought required   = 15 min
-	thought required            = 30 min
-	serious thought required    = 1 h
-	major restructuring         = 1 d
+    trivial effort              = 2 min
+    minimal effort              = 5 min
+    a little thought required   = 15 min
+    thought required            = 30 min
+    serious thought required    = 1 h
+    major restructuring         = 1 d
   
 
 #1 - How to categorize the technical debt. 
