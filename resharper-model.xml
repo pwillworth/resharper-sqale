@@ -2597,12 +2597,12 @@
 
       <chc>
         <rule-key>InconsistentNaming</rule-key>
-        <characteristic></characteristic>
-        <sub-characteristic></sub-characteristic>
+        <characteristic>Maintainability</characteristic>
+        <sub-characteristic>Readability</sub-characteristic>
         <prop>
           <key>remediationFactor</key>
-          <val></val>
-          <txt>min/h/d</txt>
+          <val>2</val>
+          <txt>min</txt>
         </prop>
       </chc>
 
