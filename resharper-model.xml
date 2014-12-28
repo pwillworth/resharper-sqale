@@ -142,12 +142,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleCallToLast</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -652,12 +652,12 @@
   </chc>
   <chc>
     <rule-key>VBReplaceWithFirstOrDefault</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -682,8 +682,8 @@
   </chc>
   <chc>
     <rule-key>VBReplaceWithSingleCallToFirst</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
       <val></val>
@@ -802,12 +802,12 @@
   </chc>
   <chc>
     <rule-key>ConditionIsAlwaysConst</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>10</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1242,12 +1242,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleCallToFirstOrDefault</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1592,12 +1592,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleCallToSingle</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1652,12 +1652,12 @@
   </chc>
   <chc>
     <rule-key>VBReplaceWithSingleCallToSingleOrDefault</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1862,12 +1862,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleCallToSingleOrDefault</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2132,12 +2132,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleCallToCount</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3262,12 +3262,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleAssignment.True</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3642,12 +3642,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleCallToLastOrDefault</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3772,12 +3772,12 @@
   </chc>
   <chc>
     <rule-key>RedundantThisQualifier</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3942,12 +3942,12 @@
   </chc>
   <chc>
     <rule-key>ConditionIsAlwaysTrueOrFalse</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>10</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4012,12 +4012,12 @@
   </chc>
   <chc>
     <rule-key>VBReplaceWithSingleCallToFirstOrDefault</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4782,8 +4782,8 @@
   </chc>
   <chc>
     <rule-key>VBReplaceWithSingleCallToAny</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
       <val></val>
@@ -4832,8 +4832,8 @@
   </chc>
   <chc>
     <rule-key>VBReplaceWithSingleOrDefault</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
       <val></val>
