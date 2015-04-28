@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <sqale>
   <chc>
     <rule-key>UnassignedField.Local</rule-key>
@@ -38,16 +38,6 @@
       <key>remediationFactor</key>
       <val>20</val>
       <txt>min</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>VBWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
     </prop>
   </chc>
   <chc>
@@ -331,26 +321,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>ClassNeverInstantiated.Global</rule-key>
     <characteristic>Maintainability</characteristic>
     <sub-characteristic>Understandability</sub-characteristic>
@@ -512,16 +482,6 @@
   </chc>
   <chc>
     <rule-key>TypeParameterCanBeVariant</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -768,7 +728,7 @@
       <key>remediationFactor</key>
       <val>5</val>
       <txt>min</txt>
-	  <note>Check the code whether this was intended</note>
+      <note>Check the code whether this was intended</note>
     </prop>
   </chc>
   <chc>
@@ -1169,7 +1129,7 @@
       <key>remediationFactor</key>
       <val>1</val>
       <txt>min</txt>
-	  <note>Resharper can take care of this</note>
+      <note>Resharper can take care of this</note>
     </prop>
   </chc>
   <chc>
@@ -1250,16 +1210,6 @@
       <key>remediationFactor</key>
       <val>5</val>
       <txt>min</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>VBWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
     </prop>
   </chc>
   <chc>
@@ -1483,16 +1433,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>VBWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>ReadAccessInDoubleCheckLocking</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
@@ -1524,16 +1464,6 @@
   </chc>
   <chc>
     <rule-key>RedundantJumpStatement</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>VBWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -1710,7 +1640,7 @@
       <key>remediationFactor</key>
       <val>2</val>
       <txt>h</txt>
-	  <note>Addressing these may take considerable time</note>
+      <note>Addressing these may take considerable time</note>
     </prop>
   </chc>
   <chc>
@@ -1754,37 +1684,7 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>Xaml.PathError</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -1804,27 +1704,7 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>QualifiedExpressionMaybeNull</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -1915,16 +1795,6 @@
   </chc>
   <chc>
     <rule-key>FunctionRecursiveOnAllPaths</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>VBWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -2064,16 +1934,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>OptionalParameterRefOut</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
@@ -2095,16 +1955,6 @@
   </chc>
   <chc>
     <rule-key>DlTagContainsNonDtOrDdElements</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -2324,37 +2174,7 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>RedundantCheckBeforeAssignment</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -2375,16 +2195,6 @@
   </chc>
   <chc>
     <rule-key>GCSuppressFinalizeForTypeWithoutDestructor</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -2435,16 +2245,6 @@
   </chc>
   <chc>
     <rule-key>MemberCanBeMadeStatic.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -2551,16 +2351,6 @@
       <key>remediationFactor</key>
       <val>2</val>
       <txt>min</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>VBWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
     </prop>
   </chc>
   <chc>
@@ -2691,7 +2481,7 @@
       <key>remediationFactor</key>
       <val>1</val>
       <txt>h</txt>
-	  <note>Requires some changes to the code, may be significant.</note>
+      <note>Requires some changes to the code, may be significant.</note>
     </prop>
   </chc>
   <chc>
@@ -3055,16 +2845,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>HeuristicallyUnreachableCode</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
@@ -3102,16 +2882,6 @@
       <key>remediationFactor</key>
       <val>10</val>
       <txt>min</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
     </prop>
   </chc>
   <chc>
@@ -3245,16 +3015,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>UnusedMemberInSuper.Global</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
@@ -3272,16 +3032,6 @@
       <key>remediationFactor</key>
       <val>5</val>
       <txt>min</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
     </prop>
   </chc>
   <chc>
@@ -3495,16 +3245,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>Mvc.ControllerNotResolved</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
@@ -3585,27 +3325,7 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>RedundantExplicitArraySize</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -3676,16 +3396,6 @@
   </chc>
   <chc>
     <rule-key>WebConfig.WebConfigPathWarning</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -3832,7 +3542,7 @@
       <key>remediationFactor</key>
       <val>1</val>
       <txt>min</txt>
-	  <note>Resharper can take care of this</note>
+      <note>Resharper can take care of this</note>
     </prop>
   </chc>
   <chc>
@@ -4226,16 +3936,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>VBWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>ResourceNotResolved</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
@@ -4456,16 +4156,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>VBWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>VBSimplifyLinqExpression.7</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
@@ -4556,16 +4246,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>VBWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>VBSimplifyLinqExpression.1</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
@@ -4577,16 +4257,6 @@
   </chc>
   <chc>
     <rule-key>VBReplaceWithOfType.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -4626,26 +4296,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>VBWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>ConvertClosureToMethodGroup</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
@@ -4676,37 +4326,7 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>StringIndexOfIsCultureSpecific.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -4776,16 +4396,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>VBWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>VBReplaceWithSingleCallToAny</rule-key>
     <characteristic>Maintainability</characteristic>
     <sub-characteristic>Readability</sub-characteristic>
@@ -4823,7 +4433,7 @@
       <key>remediationFactor</key>
       <val>10</val>
       <txt>min</txt>
-	  <note>Code throws exception that was caught. change is simple, but why was it done like this.</note>
+      <note>Code throws exception that was caught. change is simple, but why was it done like this.</note>
     </prop>
   </chc>
   <chc>
@@ -4840,16 +4450,6 @@
     <rule-key>VBReplaceWithSingleOrDefault</rule-key>
     <characteristic>Maintainability</characteristic>
     <sub-characteristic>Readability</sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>VBWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
     <prop>
       <key>remediationFactor</key>
       <val></val>
@@ -4907,16 +4507,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>VBWarnings</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>ParameterHidesMember</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
@@ -4948,16 +4538,6 @@
   </chc>
   <chc>
     <rule-key>ReturnValueOfPureMethodIsNotUsed</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
-    </prop>
-  </chc>
-  <chc>
-    <rule-key>CSharpWarnings</rule-key>
     <characteristic></characteristic>
     <sub-characteristic></sub-characteristic>
     <prop>
@@ -5007,16 +4587,6 @@
     </prop>
   </chc>
   <chc>
-    <rule-key>RedundantOverriddenMember</rule-key>
-    <characteristic>Maintainability</characteristic>
-    <sub-characteristic>Understandability</sub-characteristic>
-    <prop>
-      <key>remediationFactor</key>
-      <val>1</val>
-      <txt>min</txt>
-    </prop>
-  </chc>
-  <chc>
     <rule-key>DoNotCallOverridableMethodsInConstructor</rule-key>
     <characteristic>Reliability</characteristic>
     <sub-characteristic>Logic related reliability</sub-characteristic>
@@ -5024,7 +4594,7 @@
       <key>remediationFactor</key>
       <val>2</val>
       <txt>h</txt>
-	  <note>Requires some serious investigation, and potentially changes to the code.</note>
+      <note>Requires some serious investigation, and potentially changes to the code.</note>
     </prop>
   </chc>
   <chc>
@@ -5035,7 +4605,7 @@
       <key>remediationFactor</key>
       <val>1</val>
       <txt>h</txt>
-	  <note>May require significant work to fix, if the namespace is changed, then all usings will have to be changed too</note>
+      <note>May require significant work to fix, if the namespace is changed, then all usings will have to be changed too</note>
     </prop>
   </chc>
   <chc>
@@ -5046,7 +4616,7 @@
       <key>remediationFactor</key>
       <val>5</val>
       <txt>min</txt>
-	  <note></note>
+      <note/>
     </prop>
   </chc>
   <chc>
@@ -5057,7 +4627,2137 @@
       <key>remediationFactor</key>
       <val>30</val>
       <txt>min</txt>
-	  <note></note>
+      <note/>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>AnnotationRedundanceAtValueType</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>WrongMetadataUse</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Html.TagShouldBeSelfClosed</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>LabelOrSemicolonExpected</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithFirstOrDefault.3</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithFirstOrDefault.2</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithFirstOrDefault.4</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>UnknownItemGroup</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithFirstOrDefault.1</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>UsageOfPossiblyUnassignedValue</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Xaml.MissingGridIndex</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBCheckForReferenceEqualityInstead.2</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ClassCanBeSealed.Global</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>RedundantStringType</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBCheckForReferenceEqualityInstead.1</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ThreadStaticAtInstanceField</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ExpressionIsAlwaysNull</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>RedundantUnits</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StructuralSearch</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>InvertCondition.1</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Xaml.RedundantModifiersAttribute</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>InvokedExpressionMaybeNonFunction</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>PossibleInfiniteInheritance</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>PropertySetterMustHaveSingleParameter</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>PropertyGetterCannotHaveParameters</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>EmptyConstructor</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithOfType.FirstOrDefault.2</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithOfType.FirstOrDefault.1</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBReplaceWithSingleCallToLast</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>RedundantCast.0</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBPossibleMistakenArgument</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithOfType.Count.1</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>PossibleMistakenArgument</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithOfType.Count.2</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>UseMethodIsInstanceOfType</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Web.MappedPath</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ConvertIfDoToWhile</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>MethodSupportsCancellation</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Html.TagNotClosed</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>SuggestUseVarKeywordEvident</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StaticFieldInitializersReferesToFieldBelow</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>PossibleInvalidCastExceptionInForeachLoop</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBUseTypeOfIsOperator.2</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBUseTypeOfIsOperator.1</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>RazorWarnings</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ParameterValueIsNotUsed</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Xaml.RedundantResource</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>InvalidAttributeValue</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>SimplifyLinqExpression</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>RedundantLambdaSignatureParentheses</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>FormatStringPlaceholdersMismatch</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>PartialTypeWithSinglePart</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>AccessToDisposedClosure</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>UknownTaskAttribute</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>WebConfig.UnusedRemoveOrClearTag</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>RedundantOverload.Local</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Xaml.RedundantNameAttribute</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Asp.ResolveWarning</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Asp.ContentPlaceholderNotResolved</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBReplaceWithSingleCallToCount</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StringCompareToIsCultureSpecific</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>RazorErrors</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithSingleCallToAny</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>PureAttributeOnVoidMethod</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>RedundantArgumentName</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ImpureMethodCallOnReadonlyValueField</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBSimplifyLinqExpression.10</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>AspOdsMethodReferenceResolveError</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StringCompareIsCultureSpecific.1</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>AspErrors</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StringCompareIsCultureSpecific.2</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>UnknownTask</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StringCompareIsCultureSpecific.3</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StringCompareIsCultureSpecific.4</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StringCompareIsCultureSpecific.5</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>HtmlErrors</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StringCompareIsCultureSpecific.6</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>MemberCanBePrivate.Local</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>NotAccessedVariable</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>BaseMemberHasParams</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StringEndsWithIsCultureSpecific</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>XMLErrors</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ResourceItemNotResolved</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>UnusedVariable.Compiler</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ForStatementConditionIsTrue</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>EventUnsubscriptionViaAnonymousDelegate</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StringLastIndexOfIsCultureSpecific.3</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StringLastIndexOfIsCultureSpecific.2</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Html.TagNotResolved</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ConvertNullableToShortForm</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>BaseMethodCallWithDefaultParameter</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>NotResolved</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Xaml.RedundantNamespaceAlias</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ClassWithVirtualMembersNeverInherited.Global</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>StringLastIndexOfIsCultureSpecific.1</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ConvertIfStatementToSwitchStatement</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>SyntaxIsNotAllowed</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>RedundantEmptyObjectOrCollectionInitializer</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>PossibleWriteToMe</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>RedundantCommaInArrayInitializer</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>UnusedVariable</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>UnassignedReadonlyField</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Xaml.StyleInvalidTargetType</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>EmptyNamespace</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ContractAnnotationNotParsed</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBReplaceWithSingleCallToSingle</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>HeuristicUnreachableCode</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>OperatorIsCanBeUsed</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CoVariantArrayConversion</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithSingleOrDefault.4</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBStringCompareIsCultureSpecific.6</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ClassCanBeSealed.Local</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>PropertyNotResolved</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBStringCompareIsCultureSpecific.5</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithSingleOrDefault.2</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>FormatStringProblem</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBStringCompareIsCultureSpecific.4</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithSingleOrDefault.3</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Xaml.BindingWithContextNotResolved</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBStringCompareIsCultureSpecific.3</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Web.IgnoredPath</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBStringCompareIsCultureSpecific.2</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>WebConfig.RedundantLocationTag</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBStringCompareIsCultureSpecific.1</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>NegativeEqualityExpression</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReturnTypeCanBeEnumerable.Local</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ConstantNullCoalescingCondition</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>RedundantMyClassQualifier</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>NonReadonlyFieldInGetHashCode</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>TryStatementsCanBeMerged</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Xaml.MappedPathHighlighting</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>UnusedTypeParameter</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Mvc.PartialViewNotResolved</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>OverridenWithSameValue</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Xaml.ConstructorWarning</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>MemberCanBeMadeStatic.Local</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithSingleCallToFirst</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>LoopCanBeConvertedToQuery</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ReplaceWithSingleOrDefault.1</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>ConvertToAutoProperty</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>EnumerableSumInExplicitUncheckedContext</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>PolymorphicFieldLikeEventInvocation</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBReplaceWithOfType.Single.1</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBReplaceWithOfType.Single.2</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::WME006</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0469</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0465</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0252</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC40056</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC42105</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC42104</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1590</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1591</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1592</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1589</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1587</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC42025</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1580</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC42358</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC42356</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1998</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1710</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC42353</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1712</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1066</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1717</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC42309</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC42349</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC42304</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1723</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Xaml.InvalidMemberType</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0109</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0108</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>JsFunctionCanBeConvertedToLambda</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0618</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0612</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC40008</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>OlTagContainsNonLiElements</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC40000</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0628</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0420</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>Asxx.PathError</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1584</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1570</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1571</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1573</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1574</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1522</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC42016</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS4014</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0693</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0183</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0184</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0197</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1030</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1957</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0162</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC42322</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0642</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::WME006</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CenterTagIsObsolete</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0658</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0657</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0659</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0665</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>EmptyTitleTag</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0660</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS1911</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>MissingHeadAndBodyTags</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VBWarnings::BC400005</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>CSharpWarnings::CS0672</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>VirtualMemberNeverOverriden.Local</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
+    </prop>
+  </chc>
+  <chc>
+    <rule-key>MemberCanBeProtected.Local</rule-key>
+    <characteristic></characteristic>
+    <sub-characteristic></sub-characteristic>
+    <prop>
+      <key>remediationFactor</key>
+      <val></val>
+      <txt>min/h/d</txt>
     </prop>
   </chc>
 </sqale>
