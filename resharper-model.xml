@@ -33,7 +33,7 @@
   <chc>
     <rule-key>MemberCanBeInternal</rule-key>
     <characteristic>Changeability</characteristic>
-    <sub-characteristic>Logic related reliability</sub-characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
       <val>20</val>
@@ -312,12 +312,12 @@
   </chc>
   <chc>
     <rule-key>UnusedMethodReturnValue.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -362,12 +362,12 @@
   </chc>
   <chc>
     <rule-key>MethodOverloadWithOptionalParameter</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1164,12 +1164,12 @@
   </chc>
   <chc>
     <rule-key>UnusedMethodReturnValue.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1786,12 +1786,12 @@
   </chc>
   <chc>
     <rule-key>PublicConstructorInAbstractClass</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1976,12 +1976,12 @@
   </chc>
   <chc>
     <rule-key>OptionalParameterHierarchyMismatch</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2206,12 +2206,12 @@
   </chc>
   <chc>
     <rule-key>MemberHidesStaticFromOuterClass</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2246,12 +2246,12 @@
   </chc>
   <chc>
     <rule-key>MemberCanBeMadeStatic.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Efficiency</characteristic>
+    <sub-characteristic>Memory use</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2386,12 +2386,12 @@
   </chc>
   <chc>
     <rule-key>InvocationIsSkipped</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2416,12 +2416,12 @@
   </chc>
   <chc>
     <rule-key>MultipleNullableAttributesUsage</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3057,8 +3057,8 @@
   </chc>
   <chc>
     <rule-key>MemberCanBePrivate.Global</rule-key>
-    <characteristic>Maintainability</characteristic>
-    <sub-characteristic>Understandability</sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
       <val>30</val>
@@ -4018,12 +4018,12 @@
   </chc>
   <chc>
     <rule-key>PossiblyMistakenUseOfParamsMethod</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4579,8 +4579,8 @@
   </chc>
   <chc>
     <rule-key>MemberCanBeProtected.Global</rule-key>
-    <characteristic>Maintainability</characteristic>
-    <sub-characteristic>Understandability</sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Architecture related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
       <val>30</val>
@@ -5003,12 +5003,12 @@
   </chc>
   <chc>
     <rule-key>MethodSupportsCancellation</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Efficiency</characteristic>
+    <sub-characteristic>Processor use</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5403,12 +5403,12 @@
   </chc>
   <chc>
     <rule-key>MemberCanBePrivate.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5983,12 +5983,12 @@
   </chc>
   <chc>
     <rule-key>MemberCanBeMadeStatic.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Efficiency</characteristic>
+    <sub-characteristic>Memory use</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6754,12 +6754,12 @@
   </chc>
   <chc>
     <rule-key>MemberCanBeProtected.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Architecture related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
 </sqale>
