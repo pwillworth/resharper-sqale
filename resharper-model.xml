@@ -33,7 +33,7 @@
   <chc>
     <rule-key>MemberCanBeInternal</rule-key>
     <characteristic>Changeability</characteristic>
-    <sub-characteristic>Logic related reliability</sub-characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
       <val>20</val>
@@ -106,8 +106,8 @@
     <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -142,12 +142,12 @@
   </chc>
   <chc>
     <rule-key>PossibleMultipleEnumeration</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Efficiency</characteristic>
+    <sub-characteristic>Processor use</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -172,12 +172,12 @@
   </chc>
   <chc>
     <rule-key>DelegateSubtraction</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -192,32 +192,32 @@
   </chc>
   <chc>
     <rule-key>UseMethodAny.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PossibleUnintendedReferenceComparison</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UseMethodAny.0</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -232,22 +232,22 @@
   </chc>
   <chc>
     <rule-key>RemoveToList.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RemoveToList.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -262,62 +262,62 @@
   </chc>
   <chc>
     <rule-key>UseMethodAny.4</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantEmptyObjectCreationArgumentList</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UseMethodAny.3</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UseMethodAny.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>SpecifyACultureInStringConversionExplicitly</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Language related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UnusedMethodReturnValue.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -362,22 +362,22 @@
   </chc>
   <chc>
     <rule-key>MethodOverloadWithOptionalParameter</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RequiredBaseTypesConflict</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
@@ -422,42 +422,42 @@
   </chc>
   <chc>
     <rule-key>IteratorMethodResultIsIgnored</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ValueParameterNotUsed</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CheckForReferenceEqualityInstead.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CheckForReferenceEqualityInstead.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -482,42 +482,42 @@
   </chc>
   <chc>
     <rule-key>TypeParameterCanBeVariant</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantArgumentNameForLiteralExpression</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.LastOrDefault.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.LastOrDefault.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -572,12 +572,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithSimpleAssignment.True</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -592,22 +592,22 @@
   </chc>
   <chc>
     <rule-key>EventNeverSubscribedTo.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UnusedMemberInSuper.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -632,12 +632,12 @@
   </chc>
   <chc>
     <rule-key>RedundantBoolCompare</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -652,22 +652,22 @@
   </chc>
   <chc>
     <rule-key>ParameterTypeCanBeEnumerable.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ParameterTypeCanBeEnumerable.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -692,12 +692,12 @@
   </chc>
   <chc>
     <rule-key>InvertIf</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -712,12 +712,12 @@
   </chc>
   <chc>
     <rule-key>ElidedTrailingElement</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Software related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -733,22 +733,22 @@
   </chc>
   <chc>
     <rule-key>RedundantStringToCharArrayCall</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>EmptyEmbeddedStatement</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -803,12 +803,12 @@
   </chc>
   <chc>
     <rule-key>RedundantComparisonWithNull</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -823,42 +823,42 @@
   </chc>
   <chc>
     <rule-key>RedundantAnonymousTypePropertyName</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantEnumerableCastCall</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ResxNotResolved</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>Asp.SkinNotResolved</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -873,32 +873,32 @@
   </chc>
   <chc>
     <rule-key>Asp.Warning</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>AccessToModifiedClosure</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CanBeReplacedWithTryCastAndCheckForNull</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>10</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -933,12 +933,12 @@
   </chc>
   <chc>
     <rule-key>SimplifyConditionalTernaryExpression</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -963,12 +963,12 @@
   </chc>
   <chc>
     <rule-key>ClassWithVirtualMembersNeverInherited.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Architecture related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1023,22 +1023,22 @@
   </chc>
   <chc>
     <rule-key>FieldCanBeMadeReadOnly.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UnusedLabel</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1063,12 +1063,12 @@
   </chc>
   <chc>
     <rule-key>UnusedAutoPropertyAccessor.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1083,22 +1083,22 @@
   </chc>
   <chc>
     <rule-key>ConvertToConstant.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantCaseLabel</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1113,12 +1113,12 @@
   </chc>
   <chc>
     <rule-key>ClearAttributeIsObsolete.All</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Language related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1164,12 +1164,12 @@
   </chc>
   <chc>
     <rule-key>UnusedMethodReturnValue.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1234,12 +1234,12 @@
   </chc>
   <chc>
     <rule-key>RequiredBaseTypesDirectConflict</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1254,32 +1254,32 @@
   </chc>
   <chc>
     <rule-key>InvokeAsExtensionMethod</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PathNotResolved</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PossibleInterfaceMemberAmbiguity</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1324,12 +1324,12 @@
   </chc>
   <chc>
     <rule-key>NotAccessedField.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1364,32 +1364,32 @@
   </chc>
   <chc>
     <rule-key>NUnit.NonPublicMethodWithTestAttribute</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Testability</characteristic>
+    <sub-characteristic>Unit level testability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantToStringCall</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ExplicitCallerInfoArgument</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1404,22 +1404,22 @@
   </chc>
   <chc>
     <rule-key>RedundantOverload.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>FieldCanBeMadeReadOnly.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1434,12 +1434,12 @@
   </chc>
   <chc>
     <rule-key>ReadAccessInDoubleCheckLocking</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Synchronization related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1454,22 +1454,22 @@
   </chc>
   <chc>
     <rule-key>PossibleLossOfFraction</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantJumpStatement</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1504,22 +1504,23 @@
   </chc>
   <chc>
     <rule-key>RedundantCollectionInitializerElementBraces</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>AnnotationConflictInHierarchy</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
+      <note>There is base member that has conflicting nullness annotation.</note>
     </prop>
   </chc>
   <chc>
@@ -1534,52 +1535,52 @@
   </chc>
   <chc>
     <rule-key>UnassignedField.Compiler</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithLastOrDefault.4</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithLastOrDefault.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithLastOrDefault.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithLastOrDefault.3</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1594,48 +1595,48 @@
   </chc>
   <chc>
     <rule-key>ConvertToLambdaExpression</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>20</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>LoopCanBePartlyConvertedToQuery</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>StaticFieldInGenericType</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PossibleMultipleWriteAccessInDoubleCheckLocking</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Synchronization related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>EmptyGeneralCatchClause</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Exception handling</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
       <val>2</val>
@@ -1665,8 +1666,8 @@
   </chc>
   <chc>
     <rule-key>NotAccessedVariable.Compiler</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
       <val></val>
@@ -1695,12 +1696,12 @@
   </chc>
   <chc>
     <rule-key>AssignToImplicitGlobalInFunctionScope</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1765,12 +1766,12 @@
   </chc>
   <chc>
     <rule-key>EventNeverSubscribedTo.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1785,32 +1786,32 @@
   </chc>
   <chc>
     <rule-key>PublicConstructorInAbstractClass</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>FunctionRecursiveOnAllPaths</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>d</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ThrowMustBeFollowedByExpression</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Exception handling</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1825,22 +1826,22 @@
   </chc>
   <chc>
     <rule-key>ThreadStaticFieldHasInitializer</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>EqualExpressionComparison</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1925,32 +1926,32 @@
   </chc>
   <chc>
     <rule-key>UnusedField.Compiler</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>OptionalParameterRefOut</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>NotResolvedInText</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1975,12 +1976,12 @@
   </chc>
   <chc>
     <rule-key>OptionalParameterHierarchyMismatch</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2015,12 +2016,12 @@
   </chc>
   <chc>
     <rule-key>AssignNullToNotNullAttribute</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
@@ -2045,12 +2046,12 @@
   </chc>
   <chc>
     <rule-key>RedundantStringFormatCall</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2065,12 +2066,12 @@
   </chc>
   <chc>
     <rule-key>IntroduceOptionalParameters.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2085,32 +2086,32 @@
   </chc>
   <chc>
     <rule-key>VBReplaceWithOfType.Where</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>AsxxErrors</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>NotAccessedField.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2165,22 +2166,22 @@
   </chc>
   <chc>
     <rule-key>RedundantLambdaParameterType</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantCheckBeforeAssignment</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2195,62 +2196,62 @@
   </chc>
   <chc>
     <rule-key>GCSuppressFinalizeForTypeWithoutDestructor</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Efficiency</characteristic>
+    <sub-characteristic>Memory use</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>MemberHidesStaticFromOuterClass</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantTernaryExpression</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.Last.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.Last.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>MemberCanBeMadeStatic.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Efficiency</characteristic>
+    <sub-characteristic>Memory use</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2265,22 +2266,22 @@
   </chc>
   <chc>
     <rule-key>LongLiteralEndingLowerL</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ClearAttributeIsObsolete</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Language related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2295,32 +2296,32 @@
   </chc>
   <chc>
     <rule-key>DefaultValueAttributeForOptionalParameter</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ObjectCreationAsStatement</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>BaseObjectGetHashCodeCallInGetHashCode</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
@@ -2365,42 +2366,42 @@
   </chc>
   <chc>
     <rule-key>ReturnTypeCanBeEnumerable.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UseArrayCreationExpression.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>InvocationIsSkipped</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UseArrayCreationExpression.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2415,32 +2416,32 @@
   </chc>
   <chc>
     <rule-key>MultipleNullableAttributesUsage</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>AssignedValueIsNeverUsed</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantLogicalConditionalExpressionOperand</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2455,12 +2456,12 @@
   </chc>
   <chc>
     <rule-key>BaseObjectEqualsIsObjectEquals</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2496,12 +2497,12 @@
   </chc>
   <chc>
     <rule-key>SimilarAnonymousTypeNearby</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2576,32 +2577,32 @@
   </chc>
   <chc>
     <rule-key>EventNeverInvoked.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>NotAssignedOutParameter</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UnusedAnonymousMethodSignature</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2636,22 +2637,22 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.Where</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PossibleInvalidCastException</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2686,42 +2687,42 @@
   </chc>
   <chc>
     <rule-key>PossibleMistakenCallToGetType.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PossibleMistakenCallToGetType.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>TailRecursiveCall</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantAssignment</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2826,22 +2827,22 @@
   </chc>
   <chc>
     <rule-key>ClassCannotBeInstantiated</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PartialMethodWithSinglePart</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2856,22 +2857,22 @@
   </chc>
   <chc>
     <rule-key>MeaninglessDefaultParameterValue</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ForCanBeConvertedToForeach</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2896,22 +2897,22 @@
   </chc>
   <chc>
     <rule-key>NotAllPathsReturnValue</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UnusedMemberHiearchy.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2946,12 +2947,12 @@
   </chc>
   <chc>
     <rule-key>RedundantCatchClause</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2966,32 +2967,32 @@
   </chc>
   <chc>
     <rule-key>ConstructorInitializerLoop</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantArgumentDefaultValue</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpErrors</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
@@ -3016,12 +3017,12 @@
   </chc>
   <chc>
     <rule-key>UnusedMemberInSuper.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3036,12 +3037,12 @@
   </chc>
   <chc>
     <rule-key>ReferenceEqualsWithValueType</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3056,8 +3057,8 @@
   </chc>
   <chc>
     <rule-key>MemberCanBePrivate.Global</rule-key>
-    <characteristic>Maintainability</characteristic>
-    <sub-characteristic>Understandability</sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
       <val>30</val>
@@ -3066,22 +3067,22 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithSimpleAssignment.False</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>AccessToForEachVariableInClosure</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3096,12 +3097,12 @@
   </chc>
   <chc>
     <rule-key>StringStartsWithIsCultureSpecific</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3116,12 +3117,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.LongCount</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3156,62 +3157,62 @@
   </chc>
   <chc>
     <rule-key>UnusedAutoPropertyAccessor.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RequiredBaseTypesIsNotInherited</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UnsupportedRequiredBaseType</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>SealedMemberInSealedClass</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CompareOfFloatsByEqualityOperator</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PrivateFieldCanBeConvertedToLocalVariable</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3226,12 +3227,12 @@
   </chc>
   <chc>
     <rule-key>IntroduceOptionalParameters.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3256,22 +3257,22 @@
   </chc>
   <chc>
     <rule-key>ConvertConditionalTernaryToNullCoalescing</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ConditionalTernaryEqualBranch</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3286,12 +3287,12 @@
   </chc>
   <chc>
     <rule-key>ConvertToConstant.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3316,52 +3317,52 @@
   </chc>
   <chc>
     <rule-key>RedundantTypeArgumentsOfMethod</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantExplicitArraySize</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>LocalizableElement</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Language related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UnassignedField.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ImplicitlyCapturedClosure</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Efficiency</characteristic>
+    <sub-characteristic>Memory use</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3386,12 +3387,12 @@
   </chc>
   <chc>
     <rule-key>Asp.DeadCode</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3406,22 +3407,22 @@
   </chc>
   <chc>
     <rule-key>FunctionNeverReturns</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantParams</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
@@ -3446,12 +3447,12 @@
   </chc>
   <chc>
     <rule-key>DynamicShiftRightOpIsNotInt</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3466,12 +3467,12 @@
   </chc>
   <chc>
     <rule-key>PartialMethodParameterNameMismatch</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3496,32 +3497,32 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.SingleOrDefault.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.SingleOrDefault.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PossibleInvalidOperationException</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
@@ -3547,12 +3548,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.Single.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3567,12 +3568,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.Single.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3597,12 +3598,12 @@
   </chc>
   <chc>
     <rule-key>LocalVariableHidesMember</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3617,22 +3618,22 @@
   </chc>
   <chc>
     <rule-key>RedundantOverridenMember</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>EmptyDestructor</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3647,12 +3648,12 @@
   </chc>
   <chc>
     <rule-key>RedundantEmptyFinallyBlock</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3677,52 +3678,52 @@
   </chc>
   <chc>
     <rule-key>RedundantToStringCallForValueType</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ConvertToAutoPropertyWithPrivateSetter</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability </characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ExpressionIsAlwaysConst</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UseIsOperator.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>SpecifyStringComparison</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3737,32 +3738,32 @@
   </chc>
   <chc>
     <rule-key>UseIsOperator.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithStringIsNullOrEmpty</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>3</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>EnumUnderlyingTypeIsInt</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3777,12 +3778,12 @@
   </chc>
   <chc>
     <rule-key>SuggestUseVarKeywordEverywhere</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3797,52 +3798,52 @@
   </chc>
   <chc>
     <rule-key>RemoveRedundantOrStatement.False</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>JoinDeclarationAndInitializer</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantArrayCreationExpression</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.Any.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.Any.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3857,22 +3858,22 @@
   </chc>
   <chc>
     <rule-key>Asp.TagAttributeWithOptionalValue</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantExplicitNullableCreation</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3897,52 +3898,52 @@
   </chc>
   <chc>
     <rule-key>UnassignedReadonlyField.Compiler</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>AnnotationRedundanceInHierarchy</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.3</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>TooWideLocalVariableScope</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ResourceNotResolved</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3957,12 +3958,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.First.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3977,62 +3978,62 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.First.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>EmptyForStatement</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PossiblyMistakenUseOfParamsMethod</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>NonVolatileFieldInDoubleCheckLocking</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Synchronization related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4057,12 +4058,12 @@
   </chc>
   <chc>
     <rule-key>CompareNonConstrainedGenericWithNull</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4147,12 +4148,12 @@
   </chc>
   <chc>
     <rule-key>RedundantBaseQualifier</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4237,12 +4238,12 @@
   </chc>
   <chc>
     <rule-key>RedundantUnsafeContext</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4297,22 +4298,22 @@
   </chc>
   <chc>
     <rule-key>ConvertClosureToMethodGroup</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>BitwiseOperatorOnEnumWithoutFlags</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4327,12 +4328,12 @@
   </chc>
   <chc>
     <rule-key>StringIndexOfIsCultureSpecific.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4357,32 +4358,32 @@
   </chc>
   <chc>
     <rule-key>StringIndexOfIsCultureSpecific.3</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>StringIndexOfIsCultureSpecific.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>LoopVariableIsNeverChangedInsideLoop</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4438,12 +4439,12 @@
   </chc>
   <chc>
     <rule-key>UnusedMemberHiearchy.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4468,82 +4469,82 @@
   </chc>
   <chc>
     <rule-key>BuildScriptErrors</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ConvertToStaticClass</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Architecture related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UseIndexedProperty</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RemoveRedundantOrStatement.True</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ParameterHidesMember</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RemoveConstuctorInvocation</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>SuspiciousTypeConversion.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReturnValueOfPureMethodIsNotUsed</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4558,12 +4559,12 @@
   </chc>
   <chc>
     <rule-key>RedundantEmptyDefaultSwitchBranch</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4578,8 +4579,8 @@
   </chc>
   <chc>
     <rule-key>MemberCanBeProtected.Global</rule-key>
-    <characteristic>Maintainability</characteristic>
-    <sub-characteristic>Understandability</sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Architecture related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
       <val>30</val>
@@ -4632,12 +4633,12 @@
   </chc>
   <chc>
     <rule-key>AnnotationRedundanceAtValueType</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4672,32 +4673,32 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithFirstOrDefault.3</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithFirstOrDefault.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithFirstOrDefault.4</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4712,12 +4713,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithFirstOrDefault.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4742,22 +4743,22 @@
   </chc>
   <chc>
     <rule-key>VBCheckForReferenceEqualityInstead.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ClassCanBeSealed.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Architecture related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4772,32 +4773,32 @@
   </chc>
   <chc>
     <rule-key>VBCheckForReferenceEqualityInstead.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ThreadStaticAtInstanceField</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ExpressionIsAlwaysNull</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4818,16 +4819,17 @@
       <key>remediationFactor</key>
       <val></val>
       <txt>min/h/d</txt>
+      <note>This rule is based on custom code patterns you can set up to search for in Resharper, so specific Sqale data cannot be assigned.</note>
     </prop>
   </chc>
   <chc>
     <rule-key>InvertCondition.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4852,12 +4854,12 @@
   </chc>
   <chc>
     <rule-key>PossibleInfiniteInheritance</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
@@ -4882,32 +4884,32 @@
   </chc>
   <chc>
     <rule-key>EmptyConstructor</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.FirstOrDefault.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.FirstOrDefault.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4922,12 +4924,12 @@
   </chc>
   <chc>
     <rule-key>RedundantCast.0</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4942,42 +4944,42 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.Count.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PossibleMistakenArgument</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithOfType.Count.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UseMethodIsInstanceOfType</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -4992,22 +4994,22 @@
   </chc>
   <chc>
     <rule-key>ConvertIfDoToWhile</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>10</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>MethodSupportsCancellation</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Efficiency</characteristic>
+    <sub-characteristic>Processor use</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5022,32 +5024,32 @@
   </chc>
   <chc>
     <rule-key>SuggestUseVarKeywordEvident</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>StaticFieldInitializersReferesToFieldBelow</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PossibleInvalidCastExceptionInForeachLoop</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>20</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5082,12 +5084,12 @@
   </chc>
   <chc>
     <rule-key>ParameterValueIsNotUsed</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5112,22 +5114,22 @@
   </chc>
   <chc>
     <rule-key>SimplifyLinqExpression</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantLambdaSignatureParentheses</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5142,22 +5144,22 @@
   </chc>
   <chc>
     <rule-key>PartialTypeWithSinglePart</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>AccessToDisposedClosure</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Synchronization related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5182,12 +5184,12 @@
   </chc>
   <chc>
     <rule-key>RedundantOverload.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5202,12 +5204,12 @@
   </chc>
   <chc>
     <rule-key>Asp.ResolveWarning</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
@@ -5232,12 +5234,12 @@
   </chc>
   <chc>
     <rule-key>StringCompareToIsCultureSpecific</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5252,42 +5254,42 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleCallToAny</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PureAttributeOnVoidMethod</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>RedundantArgumentName</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ImpureMethodCallOnReadonlyValueField</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5312,32 +5314,32 @@
   </chc>
   <chc>
     <rule-key>StringCompareIsCultureSpecific.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>AspErrors</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>StringCompareIsCultureSpecific.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5352,32 +5354,32 @@
   </chc>
   <chc>
     <rule-key>StringCompareIsCultureSpecific.3</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>StringCompareIsCultureSpecific.4</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>StringCompareIsCultureSpecific.5</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5392,52 +5394,52 @@
   </chc>
   <chc>
     <rule-key>StringCompareIsCultureSpecific.6</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>MemberCanBePrivate.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>NotAccessedVariable</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>BaseMemberHasParams</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>StringEndsWithIsCultureSpecific</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5452,62 +5454,62 @@
   </chc>
   <chc>
     <rule-key>ResourceItemNotResolved</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UnusedVariable.Compiler</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ForStatementConditionIsTrue</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>EventUnsubscriptionViaAnonymousDelegate</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Efficiency</characteristic>
+    <sub-characteristic>Processor use</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>StringLastIndexOfIsCultureSpecific.3</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>StringLastIndexOfIsCultureSpecific.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5522,32 +5524,32 @@
   </chc>
   <chc>
     <rule-key>ConvertNullableToShortForm</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>BaseMethodCallWithDefaultParameter</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>NotResolved</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5562,32 +5564,32 @@
   </chc>
   <chc>
     <rule-key>ClassWithVirtualMembersNeverInherited.Global</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Architecture related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>StringLastIndexOfIsCultureSpecific.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ConvertIfStatementToSwitchStatement</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>10</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5602,12 +5604,12 @@
   </chc>
   <chc>
     <rule-key>RedundantEmptyObjectOrCollectionInitializer</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5622,32 +5624,32 @@
   </chc>
   <chc>
     <rule-key>RedundantCommaInArrayInitializer</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UnusedVariable</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>UnassignedReadonlyField</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5662,22 +5664,22 @@
   </chc>
   <chc>
     <rule-key>EmptyNamespace</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ContractAnnotationNotParsed</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Software related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5702,32 +5704,32 @@
   </chc>
   <chc>
     <rule-key>OperatorIsCanBeUsed</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CoVariantArrayConversion</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleOrDefault.4</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5742,22 +5744,22 @@
   </chc>
   <chc>
     <rule-key>ClassCanBeSealed.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Architecture related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PropertyNotResolved</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5772,22 +5774,22 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleOrDefault.2</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>FormatStringProblem</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5802,12 +5804,12 @@
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleOrDefault.3</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5872,32 +5874,32 @@
   </chc>
   <chc>
     <rule-key>NegativeEqualityExpression</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReturnTypeCanBeEnumerable.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Data related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ConstantNullCoalescingCondition</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Efficiency</characteristic>
+    <sub-characteristic>Processor use</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5912,22 +5914,22 @@
   </chc>
   <chc>
     <rule-key>NonReadonlyFieldInGetHashCode</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>TryStatementsCanBeMerged</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5942,12 +5944,12 @@
   </chc>
   <chc>
     <rule-key>UnusedTypeParameter</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>10</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -5982,72 +5984,72 @@
   </chc>
   <chc>
     <rule-key>MemberCanBeMadeStatic.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Efficiency</characteristic>
+    <sub-characteristic>Memory use</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleCallToFirst</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>LoopCanBeConvertedToQuery</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ReplaceWithSingleOrDefault.1</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>ConvertToAutoProperty</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>EnumerableSumInExplicitUncheckedContext</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Exception handling</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>PolymorphicFieldLikeEventInvocation</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6082,32 +6084,32 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0469</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0465</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Efficiency</characteristic>
+    <sub-characteristic>Memory use</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0252</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6142,52 +6144,52 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1590</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Software related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>10</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1591</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1592</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Software related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1589</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Software related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1587</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6202,12 +6204,12 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1580</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6232,22 +6234,22 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1998</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1710</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6262,32 +6264,32 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1712</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1066</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1717</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6322,12 +6324,12 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1723</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6342,22 +6344,22 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0109</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0108</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6372,22 +6374,22 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0618</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Software related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>4</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0612</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Software related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>d</txt>
     </prop>
   </chc>
   <chc>
@@ -6422,92 +6424,92 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0628</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0420</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>Asxx.PathError</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1584</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1570</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Software related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1571</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1573</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1574</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1522</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6522,52 +6524,52 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS4014</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Synchronization related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0693</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0183</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0184</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0197</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Data related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>d</txt>
     </prop>
   </chc>
   <chc>
@@ -6578,26 +6580,27 @@
       <key>remediationFactor</key>
       <val></val>
       <txt>min/h/d</txt>
+      <note>This is for user defined warnings so we cannot define sqale parameters for it.</note>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1957</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0162</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6612,72 +6615,72 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0642</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::WME006</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CenterTagIsObsolete</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Language related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0658</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0657</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Instruction related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0659</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0665</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6692,22 +6695,22 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0660</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Logic related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>1</val>
+      <txt>h</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS1911</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Reliability</characteristic>
+    <sub-characteristic>Architecture related reliability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>30</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -6732,32 +6735,32 @@
   </chc>
   <chc>
     <rule-key>CSharpWarnings::CS0672</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Portability</characteristic>
+    <sub-characteristic>Software related portability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>VirtualMemberNeverOverriden.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>2</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
     <rule-key>MemberCanBeProtected.Local</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Changeability</characteristic>
+    <sub-characteristic>Architecture related changeability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
 </sqale>
