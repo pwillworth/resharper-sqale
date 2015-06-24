@@ -487,8 +487,8 @@
     <sub-characteristic>Readability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -910,8 +910,8 @@
     <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>5</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -1447,12 +1447,12 @@
   </chc>
   <chc>
     <rule-key>HeuristicallyUnreachableCode</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2328,12 +2328,12 @@
   </chc>
   <chc>
     <rule-key>UnreachableCode</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -2429,12 +2429,12 @@
   </chc>
   <chc>
     <rule-key>EventNeverInvoked</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
@@ -3114,12 +3114,12 @@
   </chc>
   <chc>
     <rule-key>HeuristicUnreachableCode</rule-key>
-    <characteristic></characteristic>
-    <sub-characteristic></sub-characteristic>
+    <characteristic>Maintainability</characteristic>
+    <sub-characteristic>Understandability</sub-characteristic>
     <prop>
       <key>remediationFactor</key>
-      <val></val>
-      <txt>min/h/d</txt>
+      <val>15</val>
+      <txt>min</txt>
     </prop>
   </chc>
   <chc>
